@@ -1,273 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="CSS/Portal.css" />
-    <!--CSS-->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <!---Fontwosome-->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet" href="CSS/Portal.css" />
+  <!--CSS-->
 
-    <title>Welcome to your stdudent portal</title>
-  </head>
-  <body>
+  <!---Fontwosome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+  <title>Welcome to your stdudent portal</title>
+</head>
+
+<body>
 
 
 
 
 
-    <!---========heading ============-->
-    <div class="">
-      <nav class="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="IMAGES/Clifford.png"
-              alt=""
-              width="50"
-              height="50"
-              class="d-inline-block align-text-top"
-            />
-          <span class = "lead text-capitalize cliffford"> Opoku Isaiah Clifford </span>
-          </a>
-          
-            <button type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-              Resuts
-            </button
-        
+  <!---========heading ============-->
+  <div class="">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="IMAGES/Clifford.png" alt="" width="50" height="50" class="d-inline-block align-text-top" />
+          <span class="lead text-capitalize cliffford"> Opoku Isaiah Clifford </span>
+        </a>
 
-         
+        <button type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Notices
+        </button </div>
+    </nav>
+
+
+
+
+
+
+
+    <!---=================Navbar ==============-->
+    <nav class="navbar navbar-expand-sm navbar_start_bg">
+      <!-- Toggler/collapsibe Button -->
+      <div class="container-fluid">
+        <button class="navbar-toggler ms-auto ms-sm-2" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" style="color: #fff; font-size: 28px"></i>
+          </span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav ms-2 align-items-end">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#"> contact </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">more </a>
+            </li>
+
+            <li>
+          </ul>
         </div>
-      </nav>
-
-
-
-
-
-
-
-      <!---=================Navbar ==============-->
-      <nav class="navbar navbar-expand-sm navbar_start_bg">
-        <!-- Toggler/collapsibe Button -->
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler ms-auto ms-sm-2"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle Navigation"
-          >
-            <span class="navbar-toggler-icon">
-              <i class="fas fa-bars" style="color: #fff; font-size: 28px"></i>
-            </span>
-          </button>
-          <div
-            class="navbar-collapse collapse justify-content-center"
-            id="navbarCollapse"
-          >
-            <ul class="navbar-nav ms-2 align-items-end">
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Timetable </a>
-              </li>
-              
-              <li> 
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-
-
-
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row gutters">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <div class="card">
-                <div class="card-body p-0">
-                  <div class="invoice-container">
-                    <div class="invoice-header">
-          
-                      <!-- Row start -->
-                      <div class="row gutters">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                          <div class="custom-actions-btns mb-5">
-                            <a href="#" class="btn btn-primary">
-                              <i class="icon-download"></i> Download
-                            </a>
-                            <a href="#" class="btn btn-secondary">
-                              <i class="icon-printer"></i> Print
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Row end -->
-          
-                      <!-- Row start -->
-                      <div class="row gutters">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                          <a href="index.html" class="invoice-logo">
-                            Bootdey.com
-                          </a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                          <address class="text-right">
-                            Maxwell admin Inc, 45 NorthWest Street.<br>
-                            Sunrise Blvd, San Francisco.<br>
-                            00000 00000
-                          </address>
-                        </div>
-                      </div>
-                      <!-- Row end -->
-          
-                      <!-- Row start -->
-                      <div class="row gutters">
-                        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
-                          <div class="invoice-details">
-                            <address>
-                              Alex Maxwell<br>
-                              150-600 Church Street, Florida, USA
-                            </address>
-                          </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-                          <div class="invoice-details">
-                            <div class="invoice-num">
-                              <div>Invoice - #009</div>
-                              <div>January 10th 2020</div>
-                            </div>
-                          </div>													
-                        </div>
-                      </div>
-                      <!-- Row end -->
-          
-                    </div>
-          
-                    <div class="invoice-body">
-          
-                      <!-- Row start -->
-                      <div class="row gutters">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                          <div class="table-responsive">
-                            <table class="table custom-table m-0">
-                              <thead>
-                                <tr>
-                                  <th>Items</th>
-                                  <th>Product ID</th>
-                                  <th>Quantity</th>
-                                  <th>Sub Total</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    Wordpress Template
-                                    <p class="m-0 text-muted">
-                                      Reference site about Lorem Ipsum, giving information on its origins.
-                                    </p>
-                                  </td>
-                                  <td>#50000981</td>
-                                  <td>9</td>
-                                  <td>$5000.00</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    Maxwell Admin Template
-                                    <p class="m-0 text-muted">
-                                      As well as a random Lipsum generator.
-                                    </p>
-                                  </td>
-                                  <td>#50000126</td>
-                                  <td>5</td>
-                                  <td>$100.00</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    Unify Admin Template
-                                    <p class="m-0 text-muted">
-                                      Lorem ipsum has become the industry standard.
-                                    </p>
-                                  </td>
-                                  <td>#50000821</td>
-                                  <td>6</td>
-                                  <td>$49.99</td>
-                                </tr>
-                                <tr>
-                                  <td>&nbsp;</td>
-                                  <td colspan="2">
-                                    <p>
-                                      Subtotal<br>
-                                      Shipping &amp; Handling<br>
-                                      Tax<br>
-                                    </p>
-                                    <h5 class="text-success"><strong>Grand Total</strong></h5>
-                                  </td>			
-                                  <td>
-                                    <p>
-                                      $5000.00<br>
-                                      $100.00<br>
-                                      $49.00<br>
-                                    </p>
-                                    <h5 class="text-success"><strong>$5150.99</strong></h5>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Row end -->
-          
-                    </div>
-          
-                    <div class="invoice-footer">
-                      Thank you for your Business.
-                    </div>
-          
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-    
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
+    </nav>
   </div>
-</div>
+
+
+
+
+
+
+  <section class="section services-section" id="services">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="section-title">
+                      <h2>What We do </h2>
+                      <p> We design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa fa-desktop"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Unique design</h5>
+                          <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa fa-user"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Different Layout</h5>
+                          <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa fa-comment"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Make it Simple</h5>
+                          <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa fa-image"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Responsiveness</h5>
+                          <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa fa-th"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Testing for Perfection</h5>
+                          <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa fa-cog"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Advanced Options</h5>
+                          <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- / -->
+          </div>
+      </div>
+  </section>
 
 
 
@@ -282,188 +200,7 @@
 
 
 
-
-
-
-
-   
-
-
- 
-<div id="main-content" class="blog-page">
-        <div class="container">
-            <div class="row clearfix">
-                <div class="col-lg-8 col-md-12 left-box">
-                    <div class="card single_post">
-                        <div class="body">
-                            <div class="img-post">
-                                <img class="d-block img-fluid" src="https://via.placeholder.com/800x280/87CEFA/000000" alt="First slide">
-                            </div>
-                            <h3><a href="blog-details.html">All photographs are accurate</a></h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        </div>                        
-                    </div>
-                    <div class="card">
-                            <div class="header">
-                                <h2>Comments 3</h2>
-                            </div>
-                            <div class="body">
-                                <ul class="comment-reply list-unstyled">
-                                    <li class="row clearfix">
-                                        <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Awesome Image"></div>
-                                        <div class="text-box col-md-10 col-8 p-l-0 p-r0">
-                                            <h5 class="m-b-0">Gigi Hadid </h5>
-                                            <p>Why are there so many tutorials on how to decouple WordPress? how fast and easy it is to get it running (and keep it running!) and its massive ecosystem. </p>
-                                            <ul class="list-inline">
-                                                <li><a href="javascript:void(0);">Mar 09 2018</a></li>
-                                                <li><a href="javascript:void(0);">Reply</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="row clearfix">
-                                        <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Awesome Image"></div>
-                                        <div class="text-box col-md-10 col-8 p-l-0 p-r0">
-                                            <h5 class="m-b-0">Christian Louboutin</h5>
-                                            <p>Great tutorial but few issues with it? If i try open post i get following errors. Please can you help me?</p>
-                                            <ul class="list-inline">
-                                                <li><a href="javascript:void(0);">Mar 12 2018</a></li>
-                                                <li><a href="javascript:void(0);">Reply</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="row clearfix">
-                                        <div class="icon-box col-md-2 col-4"><img class="img-fluid img-thumbnail" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="Awesome Image"></div>
-                                        <div class="text-box col-md-10 col-8 p-l-0 p-r0">
-                                            <h5 class="m-b-0">Kendall Jenner</h5>
-                                            <p>Very nice and informative article. In all the years I've done small and side-projects as a freelancer, I've ran into a few problems here and there.</p>
-                                            <ul class="list-inline">
-                                                <li><a href="javascript:void(0);">Mar 20 2018</a></li>
-                                                <li><a href="javascript:void(0);">Reply</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>                                        
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="header">
-                                <h2>Leave a reply <small>Your email address will not be published. Required fields are marked*</small></h2>
-                            </div>
-                            <div class="body">
-                                <div class="comment-form">
-                                    <form class="row clearfix">
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Your Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Email Address">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="form-group">
-                                                <textarea rows="4" class="form-control no-resize" placeholder="Please type what you want..."></textarea>
-                                            </div>
-                                            <button type="submit" class="btn btn-block btn-primary">SUBMIT</button>
-                                        </div>                                
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-md-12 right-box">
-                    <div class="card">
-                        <div class="body search">
-                            <div class="input-group m-b-0">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="fa fa-search"></i></span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Search...">                                    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="header">
-                            <h2>Categories Clouds</h2>
-                        </div>
-                        <div class="body widget">
-                            <ul class="list-unstyled categories-clouds m-b-0">
-                                <li><a href="javascript:void(0);">eCommerce</a></li>
-                                <li><a href="javascript:void(0);">Microsoft Technologies</a></li>
-                                <li><a href="javascript:void(0);">Creative UX</a></li>
-                                <li><a href="javascript:void(0);">Wordpress</a></li>
-                                <li><a href="javascript:void(0);">Angular JS</a></li>
-                                <li><a href="javascript:void(0);">Enterprise Mobility</a></li>
-                                <li><a href="javascript:void(0);">Website Design</a></li>
-                                <li><a href="javascript:void(0);">HTML5</a></li>
-                                <li><a href="javascript:void(0);">Infographics</a></li>
-                                <li><a href="javascript:void(0);">Wordpress Development</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="header">
-                            <h2>Popular Posts</h2>                        
-                        </div>
-                        <div class="body widget popular-post">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="single_post">
-                                        <p class="m-b-0">Apple Introduces Search Ads Basic</p>
-                                        <span>jun 22, 2018</span>
-                                        <div class="img-post">
-                                            <img src="https://via.placeholder.com/280x280/87CEFA/000000" alt="Awesome Image">                                        
-                                        </div>                                            
-                                    </div>
-                                    <div class="single_post">
-                                        <p class="m-b-0">new rules, more cars, more races</p>
-                                        <span>jun 8, 2018</span>
-                                        <div class="img-post">
-                                            <img src="https://via.placeholder.com/280x280/87CEFA/000000" alt="Awesome Image">                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="header">
-                            <h2>Instagram Post</h2>
-                        </div>
-                        <div class="body widget">
-                            <ul class="list-unstyled instagram-plugin m-b-0">
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://via.placeholder.com/100x100/87CEFA/000000" alt="image description"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="header">
-                            <h2>Email Newsletter <small>Get our products/news earlier than others, let’s get in touch.</small></h2>
-                        </div>
-                        <div class="body widget newsletter">                        
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Enter Email">
-                                <div class="input-group-append">
-                                    <span class="input-group-text"><i class="icon-paper-plane"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+  
 
 
 
@@ -477,11 +214,10 @@
 
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
