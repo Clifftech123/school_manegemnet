@@ -39,3 +39,13 @@ body{
   border: 1px solid #ffffff;
   border-radius: .2rem;
 }
+
+
+.WELCOME_TEXT{
+  font-weight: bolder;
+}
+
+
+.rounded-circle{
+  border: 1px solid #61045f;
+}
