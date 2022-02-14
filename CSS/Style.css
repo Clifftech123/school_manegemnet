@@ -6,27 +6,20 @@
 
 
 
-html, body {
-  height:100%;
- 
-  background-color: rgba(0, 0, 0, 0.65);
-  color: rgb(0, 0, 0);
-}
 
-body:before {
-  background: url(/IMAGES/aamusted-campus-pictures-overview-1.jpg) no-repeat center center fixed;
-  background-position: center;
-  background-size: cover;
-  display: block; content:""; position: absolute; z-index:-1;
-  top:0; left: 0; right: 0; height: 100%;
-  opacity:.5;
-}
+
+
 
 
 
 body{
-  
-  margin-top:5px;
+  background: #aa076b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #61045f,
+    #aa076b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045f, #aa076b);
 }
 .card {
   margin-bottom: 1.5rem;
@@ -41,8 +34,8 @@ body{
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(231, 231, 231, 0.736);
+  background-color: rgba(255, 255, 255, 0.736);
   background-clip: border-box;
-  border: 1px solid #e5e9f2;
+  border: 1px solid #ffffff;
   border-radius: .2rem;
 }
