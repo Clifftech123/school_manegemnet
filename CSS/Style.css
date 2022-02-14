@@ -34,7 +34,7 @@ body{
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.736);
+  background-color: rgb(255, 255, 255);
   background-clip: border-box;
   border: 1px solid #ffffff;
   border-radius: .2rem;
