@@ -192,7 +192,7 @@ body {
 
 
 
-  /* CONTACTS */
+  /* Exctive card  */
   .contact-box {
     background-color: #ffffff;
     border: 1px solid #e7eaec;
@@ -236,3 +236,5 @@ body {
     clip-path: circle(50% at 50% 50%);
     object-fit: cover;
 }
+
+
