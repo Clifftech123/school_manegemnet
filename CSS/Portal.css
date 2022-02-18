@@ -22,6 +22,8 @@ body {
   color: #61045f;
 }
 
+
+
 /* The animations when you hover the card */
 .feature-box-1 {
   padding: 32px;
@@ -38,6 +40,8 @@ body {
   top: 0;
 }
 
+
+
 /* The main  animations when you hover the card */
 .feature-box-1 * {
   -moz-transition: ease all 0.35s;
@@ -45,6 +49,9 @@ body {
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
 }
+
+
+
 
 /* The icons on the card  */
 .feature-box-1 .icon {
@@ -71,6 +78,8 @@ body {
   margin: 0;
 }
 
+
+
 /* The  feature after effect  */
 .feature-box-1:after {
   content: "";
@@ -95,6 +104,8 @@ body {
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
 }
+
+
 
 /* The  th hover effect   */
 
@@ -131,6 +142,8 @@ body {
   padding-left: 15px;
 }
 
+
+
 /* first jumbotron  */
 
 .jumbotron_first {
@@ -142,9 +155,11 @@ body {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: #030303c4;; /* fallback for old browsers */
+  background: #20247b;
+  margin-bottom: 50px; /* fallback for old browsers */
  
 }
+
 
 .jumbotron_first:after {
   content: "";
@@ -169,30 +184,29 @@ body {
    color:#ffffff;
    font-weight: bolder;
    letter-spacing: 15px;
+   font-family: 'Times New Roman', Times, serif;
  }
 
 
+  /* =========== Partners Section  ============  */
 
-.card_first_bg{
-  background: #aa076b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #61045f,
-    #aa076b
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #61045f, #aa076b);
-  margin-top: auto;
+
+
+.Card_heading{
+  color: #aa076b;
+  letter-spacing: 20px;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  margin-bottom: 30px ;
+  font-weight: bolder;
 }
-
   /* The h1 text (name) in the card   */
 .crad_text{
-   color: #20247b;
+   color: #fd9104;
+   font-family:  sans-serif;
    
 }
-
-
-
-  /* Exctive card  */
   .contact-box {
     background-color: #ffffff;
     border: 1px solid #e7eaec;
@@ -206,12 +220,28 @@ body {
     border: 1px solid #e7eaec;
     padding: 0;
   }
-  .contact-box.center-version > a {
+  .contact-box.center-version  {
     display: block;
-    background-color: #ffffff;
+    background: #aa076b; 
+    background: -webkit-linear-gradient(
+      to right,
+      #61045f,
+      #aa076b
+    ); 
+    background: linear-gradient(to right, #61045f, #aa076b);
+    margin-top: auto;
     padding: 20px;
     text-align: center;
+    color: #e7eaec;
+    height: 300px;
+    border-radius: 5px;
+      transition: transform 250ms;
   }
+  
+  .contact-box.center-version:hover {
+    transform: translateY(-10px); 
+  }
+  
   .contact-box.center-version > a img {
     width: 80px;
     height: 80px;
@@ -235,6 +265,41 @@ body {
     width: 100%;
     clip-path: circle(50% at 50% 50%);
     object-fit: cover;
+    background-color: #ffffffe5;
+}
+ 
+
+
+  /* ===========  The figure section  Contain the company values ============  */
+  .figure_Section{
+    margin-top: 50px;
+  }
+.figure_text{
+  color: #aa076b;
+}
+
+
+.jumbotron_scond{
+  background: #aa076b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #61045f,
+    #aa076b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045f, #aa076b);
+  color: rgb(212, 212, 212);
+  position: relative;
+  z-index: 0;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+.Second_text{
+  color: #ffffff;
 }
 
 
