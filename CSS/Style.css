@@ -40,8 +40,8 @@ body{
 
 /* image in the form border */
 .rounded-circle{
-  border:   2px solid #20247b;
-  background-color: #aa076b;
+  border:   2px solid #aa076b;
+  background-color: #e6e6e6;
 }
 
 /* Remember me  text under the from */

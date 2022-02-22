@@ -20,8 +20,7 @@ body {
 
 /*=========== navbar  items =================*/
 .nav-item{
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 
 .nav-link:hover{
@@ -270,7 +269,7 @@ body {
     margin-top: 50px;
   }
 .figure_text{
-  color: #aa076b;
+  color: #000000;
 }
 
 
@@ -390,7 +389,7 @@ webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
     box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
     padding:60px;
 
-    background-color: black;
+    background-color: #20247b;
     color: #fff;
 }
 .footer_area .row {
@@ -404,12 +403,12 @@ webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
     z-index: 1;
 }
 .single-footer-widget .copywrite-text a {
-    color: #747794;
+    color: #fdfdfd;
     font-size: 1rem;
 }
 .single-footer-widget .copywrite-text a:hover,
 .single-footer-widget .copywrite-text a:focus {
-    color: #3f43fd;
+    color: #ffffff;
 }
 .single-footer-widget .widget-title {
     margin-bottom: 1.5rem;
@@ -422,7 +421,7 @@ webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
 }
 .single-footer-widget .footer_menu li a:hover,
 .single-footer-widget .footer_menu li a:focus {
-    color: #3f43fd;
+    color: #ffffff;
 }
 .single-footer-widget .footer_menu li:last-child a {
     margin-bottom: 0;
@@ -478,12 +477,79 @@ ol, ul {
     padding: 0;
 }
 
-.footer_soc{
-  margin-top: 10px;
-  display: grid;
-  align-items: center;
-  place-items: center;
+
+
+
+  /* ===========  THE FOOTER social icon  ============  */
+
+  .footer_soc{
+    margin-top: 10px;
+    display: grid;
+    align-items: center;
+    place-items: center;
+  }
+  
+  .fa-facebook{
+    font-size: 20px;
+    color: #ffff;
+   
+  }
+  .fa-facebook:hover{
+    color: #4267B2 !important;
+    font-size: 22px;
+  }
+
+  .fa-linkedin{
+    font-size: 20px;
+    color: #ffff;
+  }
+  .fa-linkedin:hover{
+    color: #38A1F2 !important;
+    font-size: 22px;
+  }
+
+  .fa-twitte{
+    font-size: 20px;
+    color: #ffff;
+  }
+  .fa-twitte:hover{
+    color: #38A1F2 !important;
+    font-size: 22px;
+  
+  }
+
+  .fa-instagram-square{
+    font-size: 20px;
+    color: #ffff;
+  }
+  .fa-instagram-square:hover{
+    color: #3f729b !important;
+    font-size: 22px;
+    
+  }
+
+  .fa-twitter{
+      font-size: 20px;
+      color: #ffff;
+  }
+  .fa-twitter:hover{
+    font-size: 22px;
+    color: #3f729b !important;
+  
+  }
+  
+  .footer_soc a, .footer_soc a:before {
+    color: #ffffff !important;
 }
+
+
+
+
+
+
+
+ 
+
 
 
 
